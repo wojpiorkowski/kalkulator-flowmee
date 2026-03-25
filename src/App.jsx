@@ -30,7 +30,7 @@ const App = () => {
   const INCLUDED_CLIENTS = 10;
 
   const CONTACT_EMAIL = "wojciech.piorkowski@automee.pl";
-  const CONTACT_PHONE = "+48 732 126 661";
+  const CONTACT_PHONE = "+48 795 700 076";
   const PRICING_URL = "https://automee.pl/cennik-biura/";
 
   const results = useMemo(() => {
