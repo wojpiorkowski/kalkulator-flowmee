@@ -392,7 +392,8 @@ Pozdrawiam,
               {[
                 "https://www.youtube.com/embed/wx2-qQUBX6o",
                 "https://www.youtube.com/embed/-NoZBitsZVw",
-                "https://www.youtube.com/embed/52E53QpSXYw"
+                "https://www.youtube.com/embed/52E53QpSXYw",
+                "https://www.youtube.com/embed/5wYT5wfLejM?si=-AMOOGBbEmMZ8kYA"
               ].map((url, index) => (
                 <div key={index} className="bg-white rounded-[2rem] p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
                   <div className="aspect-video w-full rounded-2xl overflow-hidden bg-slate-100">
