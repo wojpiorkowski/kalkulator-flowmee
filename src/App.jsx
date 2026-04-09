@@ -390,17 +390,20 @@ Pozdrawiam,
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
-                "https://www.youtube.com/embed/wx2-qQUBX6o",
-                "https://www.youtube.com/embed/-NoZBitsZVw",
-                "https://www.youtube.com/embed/52E53QpSXYw",
-                "https://www.youtube.com/embed/5wYT5wfLejM?si=-AMOOGBbEmMZ8kYA"
-              ].map((url, index) => (
-                <div key={index} className="bg-white rounded-[2rem] p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
-                  <div className="aspect-video w-full rounded-2xl overflow-hidden bg-slate-100">
+                { url: "https://www.youtube.com/embed/wx2-qQUBX6o", title: "AI w księgowości - czy to rewolucja? | Przygody Przedsiębiorców" },
+                { url: "https://www.youtube.com/embed/-NoZBitsZVw", title: "Pracownik AI w dziale finansów - webinar 18.06.2025 - autoMEE" },
+                { url: "https://www.youtube.com/embed/52E53QpSXYw", title: "Co AI zrobi z działem finansów w 2026? 4 konkretne predykcje" },
+                { url: "https://www.youtube.com/embed/5wYT5wfLejM?si=-AMOOGBbEmMZ8kYA", title: "Księgowość AI dla biur rachunkowych - Webinar 19.03.2026" }
+              ].map((video, index) => (
+                <div key={index} className="bg-white rounded-[2rem] p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col gap-3">
+                  <h3 className="font-bold text-slate-800 text-sm line-clamp-2 px-1">
+                    {video.title}
+                  </h3>
+                  <div className="aspect-video w-full rounded-2xl overflow-hidden bg-slate-100 mt-auto">
                     <iframe 
                       className="w-full h-full border-0"
-                      src={url}
-                      title={`Polecane wideo ${index + 1}`}
+                      src={video.url}
+                      title={video.title}
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                       allowFullScreen
                     ></iframe>
