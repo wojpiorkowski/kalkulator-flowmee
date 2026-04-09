@@ -390,9 +390,9 @@ Pozdrawiam,
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
-                { url: "https://www.youtube.com/embed/wx2-qQUBX6o", title: "Księgowość AI dla biur rachunkowych - Webinar 19.03.2026" },
+                { url: "https://www.youtube.com/embed/wx2-qQUBX6o", title: "Księgowość AI dla biur rachunkowych - Webinar" },
                 { url: "https://www.youtube.com/embed/AnWO9vvyqQ4?si=Fo8RmeFFd6yHQpi2", title: "flowMEE - platforma księgowości AI" },
-                { url: "https://www.youtube.com/embed/5wYT5wfLejM?si=-AMOOGBbEmMZ8kYA", title: "AI w księgowości - czy to rewolucja? | Przygody Przedsiębiorców" }
+                { url: "https://www.youtube.com/embed/5wYT5wfLejM?si=-AMOOGBbEmMZ8kYA", title: "AI w księgowości - czy to rewolucja? | Przygody Przedsiębiorców" },
                 { url: "https://www.youtube.com/embed/fSwOTdZvNyc?si=Bdb2niUYg9LLmukv", title: "Optima - Konta syntetyczne/analityczne" },
                 { url: "https://www.youtube.com/embed/hDY3nmUyuVc?si=aKmj_Z1_7Wjda_a9", title: "AI przypisuje MPK" },
                 { url: "https://www.youtube.com/embed/52E53QpSXYw", title: "AI - rozrachunki - flowMEE" },
